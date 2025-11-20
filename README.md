@@ -2,7 +2,15 @@
 
 A comprehensive guide to RxJS (Reactive Extensions for JavaScript) concepts and operators with detailed documentation and code examples.
 
-## 📚 Code Examples
+## 📚 Documentation & Code Examples
+
+This repository includes comprehensive documentation and working code examples:
+
+### 📖 Documentation
+- **[Documentation Index](./docs/README.md)** - Complete documentation for all RxJS concepts
+- All concepts are documented in the `docs/` folder with detailed explanations, examples, and best practices
+
+### 💻 Code Examples
 
 All concepts include detailed code examples with documentation:
 
@@ -326,6 +334,32 @@ npx ts-node examples/02-observable-creation.ts
 - [RxJS Operators Reference](https://rxjs.dev/api)
 - [RxJS Marble Diagrams](https://rxmarbles.com/)
 - [Learn RxJS](https://www.learnrxjs.io/)
+
+## 📖 Documentation Structure
+
+```
+docs/
+├── README.md                              # Documentation index
+├── 01-core-concepts.md                   # Observable, Observer, Subscription
+├── 02-observable-creation.md              # Creation operators
+├── 03-transformation-operators.md         # Transformation operators
+├── 04-filtering-operators.md              # Filtering operators
+├── 05-combination-operators.md            # Combination operators
+├── 06-subjects.md                         # Subjects
+├── 07-error-handling.md                   # Error handling
+├── 08-multicasting.md                     # Multicasting
+├── 09-higher-order-observables.md         # Higher-order operators
+├── 11-schedulers.md                       # Schedulers
+└── 16-memory-management.md                # Memory management
+```
+
+Each documentation file includes:
+- ✅ Detailed explanations
+- ✅ Code examples
+- ✅ Use cases
+- ✅ Best practices
+- ✅ Common patterns
+- ✅ Related concepts
 
 ## 📝 Example Files Structure
 
